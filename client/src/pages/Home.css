@@ -1,0 +1,28 @@
+.home-cont {
+  text-align: center;
+  background-color: white;
+  flex-direction: column;
+  user-select: none;
+}
+
+.home-title {
+  font-size: 2rem;
+}
+
+.home-p {
+  margin-bottom: 20px;
+}
+
+.home-b {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+  .home-b:hover {
+    background-color: #2980b9;
+  }

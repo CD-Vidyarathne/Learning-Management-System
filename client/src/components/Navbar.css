@@ -1,0 +1,58 @@
+.navbar {
+	user-select: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20vw;
+  background-color: #345555;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:start;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.hr-line{
+	width:80vw;
+	user-select: none;
+	margin-left:20vw;
+	background-color:#345555;
+	text-align: center;
+	color:white;
+	height:8vh;
+	font-size:4vh;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+  .nav-link:hover {
+    background-color: #555;
+  }
+
+  .logout{
+	  background-color: darkred;
+	  border-radius: 10px;
+  }
+

@@ -1,0 +1,39 @@
+.about-container {
+	user-select: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.members-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.member {
+  width: 200px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+  .back-button:hover {
+    background-color: #2980b9;
+  }
