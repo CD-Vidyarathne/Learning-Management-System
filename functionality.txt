@@ -1,0 +1,22 @@
+This app is basic class management app.
+
+There are 3 roles.
+
+1. Student
+2. Teacher
+3. Admin
+
+Anybody who registering into the system first registered as a normal user/student. Then if they want they can apply for the teacher role. If the person satisfy the requirements the Admin can approve them as teachers.
+
+Teachers can create classes. Classes have date time and external-link to join. Students can join classes from their end.
+
+credentials for existing users are below.
+
+Role                      Email     
+Admin 		dean123@gmail.com	
+Teacher		sam123@gmail.com
+			crowley123@gmail.com
+Student		chuck123@gmail.com
+			meg123@gmail.com
+
+*Password for all the accounts is '12345'                
